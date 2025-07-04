@@ -13,11 +13,11 @@ import clsx from 'clsx';
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Invoices',
+    name: 'Faturas',
     href: '/dashboard/invoices',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Clientes', href: '/dashboard/customers', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
